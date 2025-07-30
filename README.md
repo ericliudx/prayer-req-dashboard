@@ -8,6 +8,23 @@
 
 ##### \*\*This repository can be used in its current state, but some features may be incomplete.
 
+##TODO
+Backend
+
+- [ ] Friend endpoints
+- [ ] Search for friends
+- [ ] Join prayer groups
+- [ ] Updating prayer request status
+
+Frontend
+
+- [ ] Login and registration
+- [ ] Forgot login
+- [ ] Home page (dashboard of everything)
+- [ ] Friend page
+- [ ] Groups page
+- [ ] Profile page
+
 ## TODO
 
 - [x] add email verification code attempts logic
