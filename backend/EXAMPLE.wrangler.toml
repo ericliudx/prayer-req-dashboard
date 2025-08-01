@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 [[hyperdrive]]
 binding = "HYPERDRIVE"
 id = "<YOUR-HYPERDRIVE-ID>"
-localConnectionString = "<YOUR-HYPERDRIVE-CONNECTION-STRING>" # (same as what you used to generate hyperdrive
+localConnectionString = "<YOUR-HYPERDRIVE-CONNECTION-STRING>" # (same as what you used to generate hyperdrive)
 
 [[unsafe.bindings]]
 name = "AUTHED_RATE_LIMITER"

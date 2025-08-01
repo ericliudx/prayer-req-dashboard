@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "<YOUR-PROJECT-NAME>",
-    "slug": "<YOUR-PROJECT-SLUG>",
+    "name": "Prayer Request App",
+    "slug": "prayer-req-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
