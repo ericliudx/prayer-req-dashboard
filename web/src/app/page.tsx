@@ -15,6 +15,8 @@ export default function Home() {
     if (isLoading) return;
     if (authScope === "user") {
       router.push("/dash");
+    } else if (authScope === "unverified") {
+      router.push("/verify");
     }
   }, [router, authScope, isLoading]);
 
@@ -58,6 +60,14 @@ export default function Home() {
             Forgot Password?
           </a>
         </div>
+        <button
+          className="w-full h-12 rounded-lg justify-center items-center my-4 bg-accent text-primary font-semibold disabled:opacity-70"
+          disabled={isLoading}
+        >
+          <a href="/register" className="">
+            {isLoading ? <span>Loading...</span> : "Register"}
+          </a>
+        </button>
       </div>
     </div>
   );

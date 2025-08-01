@@ -12,7 +12,7 @@ export default function ProtectedLayout({
   const router = useRouter();
   useEffect(() => {
     if (isLoading) return;
-    if (authScope !== "user") router.push("/");
+    if (authScope === null) router.push("/");
   }, [isLoading, authScope, router]);
 
   return <div className="h-full w-full bg-surface">{children}</div>;
